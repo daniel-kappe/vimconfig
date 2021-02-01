@@ -19,8 +19,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 Link _init.vim_ in _~/.config/nvim_:
 
 ```sh
-ln -s init.vim ~/.config/nvim/init.vim
-ln -s init.vim ~/.config/nvim/init.vim.without-coc
+ln -s ~/vimconfig/init.vim ~/.config/nvim/init.vim
+ln -s ~/vimconfig/init.vim.without-coc ~/.config/nvim/init.vim
 ```
 
 Install the Plugins:
@@ -37,7 +37,7 @@ Run CocInstall with selected languages
 nvim -c 'CocInstall <language1> <language2> ...|q|q'
 ```
 
-Choices are:
+Nice Choices are (more [coc-github](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)):
 
 - coc-json
 - coc-html
