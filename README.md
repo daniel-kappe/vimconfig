@@ -20,7 +20,13 @@ Link _init.vim_ in _~/.config/nvim_:
 
 ```sh
 ln -s ~/vimconfig/init.vim ~/.config/nvim/init.vim
-ln -s ~/vimconfig/init.vim.without-coc ~/.config/nvim/init.vim
+```
+
+Alternatively you have to copy the init.vim.without_coc file.
+Symbolic linking does not work.
+
+```sh
+cp ~/vimconfig/init.vim.without_coc ~/.config/nvim/init.vim
 ```
 
 Install the Plugins:
