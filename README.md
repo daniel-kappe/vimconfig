@@ -37,10 +37,10 @@ nvim -c "PlugInstall|q|q"
 
 ## Setup Code Completion
 
-Run CocInstall with selected languages
+Run CocInstall with selected languages inside neovim
 
 ```sh
-nvim -c 'CocInstall <language1> <language2> ...|q|q'
+:CocInstall coc-json coc-html coc-css ...
 ```
 
 Nice Choices are (more [coc-github](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)):
